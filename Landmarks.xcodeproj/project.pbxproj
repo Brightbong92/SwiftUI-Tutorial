@@ -10,6 +10,7 @@
 		F7167F7F28E892A8005F6EAE /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7167F7E28E892A8005F6EAE /* LandmarkRow.swift */; };
 		F7167F8128E894E0005F6EAE /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7167F8028E894E0005F6EAE /* LandmarkList.swift */; };
 		F7167F8328E895A0005F6EAE /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7167F8228E895A0005F6EAE /* LandmarkDetail.swift */; };
+		F74F7AEC28F434C50014D202 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F7AEB28F434C50014D202 /* FavoriteButton.swift */; };
 		F75CED5B28CDE1EF0002925F /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75CED5A28CDE1EF0002925F /* LandmarksApp.swift */; };
 		F75CED5D28CDE1EF0002925F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75CED5C28CDE1EF0002925F /* ContentView.swift */; };
 		F75CED5F28CDE1F60002925F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75CED5E28CDE1F60002925F /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		F7167F7E28E892A8005F6EAE /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		F7167F8028E894E0005F6EAE /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		F7167F8228E895A0005F6EAE /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		F74F7AEB28F434C50014D202 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		F75CED5728CDE1EF0002925F /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75CED5A28CDE1EF0002925F /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		F75CED5C28CDE1EF0002925F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F74F7AE928F434810014D202 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				F7167F7E28E892A8005F6EAE /* LandmarkRow.swift */,
+				F7167F8028E894E0005F6EAE /* LandmarkList.swift */,
+				F7167F8228E895A0005F6EAE /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		F74F7AEA28F434900014D202 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F75CED6828CDE7B60002925F /* CircleImage.swift */,
+				F75CED6A28CDE81B0002925F /* MapView.swift */,
+				F74F7AEB28F434C50014D202 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F75CED4E28CDE1EF0002925F = {
 			isa = PBXGroup;
 			children = (
@@ -88,12 +110,9 @@
 		F75CED7228CDEF720002925F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F74F7AEA28F434900014D202 /* Helpers */,
+				F74F7AE928F434810014D202 /* Landmarks */,
 				F75CED5C28CDE1EF0002925F /* ContentView.swift */,
-				F75CED6828CDE7B60002925F /* CircleImage.swift */,
-				F75CED6A28CDE81B0002925F /* MapView.swift */,
-				F7167F7E28E892A8005F6EAE /* LandmarkRow.swift */,
-				F7167F8028E894E0005F6EAE /* LandmarkList.swift */,
-				F7167F8228E895A0005F6EAE /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +208,7 @@
 				F75CED5D28CDE1EF0002925F /* ContentView.swift in Sources */,
 				F75CED6B28CDE81B0002925F /* MapView.swift in Sources */,
 				F75CED5B28CDE1EF0002925F /* LandmarksApp.swift in Sources */,
+				F74F7AEC28F434C50014D202 /* FavoriteButton.swift in Sources */,
 				F7167F8128E894E0005F6EAE /* LandmarkList.swift in Sources */,
 				F7167F8328E895A0005F6EAE /* LandmarkDetail.swift in Sources */,
 				F75CED6928CDE7B60002925F /* CircleImage.swift in Sources */,
